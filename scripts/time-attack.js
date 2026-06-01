@@ -6,7 +6,7 @@
 
   const LOG_KEY = 'osaka_kodo_attack_log_v2';
   const MAX_LOG = 200;
-  const SHARE_APP_URL = 'https://nanba-solution.github.io/osaka-koudou-simulator/';
+  const SHARE_APP_URL = 'https://osaka-koudou-simulator.vercel.app/';
 
   function confirmTwice(first, second) {
     if (typeof global.confirm !== 'function') return true;

@@ -11,7 +11,7 @@ const html = readFileSync(join(root, 'index.html'), 'utf8');
 const fail = [];
 const pass = (m) => console.log(`  ✓ ${m}`);
 
-const SHARE_APP_URL = 'https://nanba-solution.github.io/osaka-koudou-simulator/';
+const SHARE_APP_URL = 'https://osaka-koudou-simulator.vercel.app/';
 const COURSE_GROUP_LABELS = {
   shigisan: '信貴山',
   saruyama: '猿山',
